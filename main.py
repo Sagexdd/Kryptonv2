@@ -87,7 +87,7 @@ async def on_command_completion(context: Context) -> None:
     full_command_name = context.command.qualified_name
     split = full_command_name.split("\n")
     executed_command = str(split[0])
-    hacker = discord.SyncWebhook.from_url("https://discord.com/api/webhooks/1118743634221740052/kQyvWt1u1-BgWKpbYGtq2B5Q35If8RReFBUCxjDROIZCJGtFpbpQAwD-5FUMi7e8DygY")
+    hacker = discord.SyncWebhook.from_url("https://discord.com/api/webhooks/1343426399133765754/zaj4_Na2wz-dy57OdPNSGF5lXp3yJaU32mVJDWv-Hrp5AVNehnh3knl2ZCLQ7B2Zz9gh")
     if not context.message.content.startswith("."):
         pcmd = f"`.{context.message.content}`"
     else:
@@ -172,7 +172,7 @@ async def main():
         os.system("clear")
         await client.load_extension("cogs")
         await client.load_extension("jishaku")
-        tkn = "OTA2MDg1NTc4OTA5NTQ4NTU0.GY8nds.JJ-k2ckUpGokqxdvbwlgJwmklthFvzqLR0qcwI"
+        tkn = "MTM0NjQ2MjM1MTEwNDE0NzU0Ng.GEAKAq.ozgwURHxgKQAQIrQrvFHaTrP5r0EfTdKFFTeIU"
         await client.start(tkn)
 
 if __name__ == "__main__":
